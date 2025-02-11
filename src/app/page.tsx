@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="h-screen bg-gradient-to-r from-gray-800 to-gray-600 text-white flex flex-col justify-between">
      <nav className="top-4 right-8 flex space-x-6 text-sm justify-end ">
-      <ul>
+      <ul className="flex gap-4">
       <li className="hover:underline">Home</li>
       <li className="hover:underline">About</li>
       <li className="hover:underline">Contact</li>
